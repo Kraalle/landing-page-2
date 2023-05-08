@@ -66,13 +66,32 @@ a {
 .section-one {
     background-color: #1F2937;
     display: flex;
+    color: white;   
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-one-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.section-one-right {
+    flex: 1;
     
+}
+
+.placeholder{
+    height: 150px;
+    width: 200px;
+    background-color: gray;
 }
 
 .title {
     font-size: 36px;
     font-weight: bold;
-    color: white;
 }
 
 .section-two {
